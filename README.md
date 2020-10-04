@@ -14,13 +14,14 @@ My client, Louise, is a playwright looking to launch a kickstarter campaign to f
 ### Challenges and Difficulties Encountered
 While creating the table for the 'Outcomes Based on Goals' analysis, I ran into some difficulty ensuring I had the correct syntax for the 'less than' and 'greater than or equal to' operators within the COUNTIFS function. I had to lookup how to correctly use those operators within a formula in Microsoft Excel after initially running into an error.  I also decided to create a table for pulling the limits of each row, which enabled me to copy the formula down the table instead of typing each COUNTIFS function individually.
 ## Results
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Conclusions about the Outcomes based on Launch Date
 1. May and June are the months with the most successful theater crowdfunding campaigns. I would recommend that Louise starts her campaign in one of these months to maximise her chances of success.
 2. November and December are the months with the least successful theater campaigns. I would recommend avoiding starting a campaign in either of these months as the number of successful campaigns is reduced during this time of year.
-- What can you conclude about the Outcomes based on Goals?
+### Conclusions about the Outcomes based on Goals
 Campaigns that start with a goal amount of less than $5000 have shown that they are historically the most successful. Over 70% of plays with a goal amount of less than $5000 reached their target. I would recommend that Louise starts with a goal of around $5000 (but no more than $10000) as the largest number of successful campaigns began with a request of between $1000 and $5000.
-- What are some limitations of this dataset?
-1. The data includes outliers that skew the dataset
+### Limitations of this dataset
+1. The data includes outliers that skew the dataset, including campaigns that request very little money and some that request very large amounts
 2. There are considerably fewer campaigns with large goal amounts, which makes conclusions about larger goal amounts less robust
-- What are some other possible tables and/or graphs that we could create?
+3. Not all the kickstarter campaigns may be relevant to Louise's campaign but for data integrity, we have used all campaigns in this analysis
+### Suggestions for possible tables and/or graphs that we could create
 I could create a clustered column chart to show the relative number of successful/failed campaigns in different countries. It could also include the average number of donors per country so that Louise is able to determine how many donors may be required to be successful.
