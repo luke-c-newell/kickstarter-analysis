@@ -5,12 +5,17 @@ This analysis provides a review of historic kickstarter campaigns, in order to d
 ### Purpose
 My client, Louise, is a playwright looking to launch a kickstarter campaign to fund her new play, Fever. She would like to understand which factors influenced the success of previous theater campaigns, so she can set herself up for success! Her estimated budget is $10,000 and Louise would like to use the results of this analysis, to inform the creation of her own campaign.
 ## Analysis and Challenges
-
+### Overview
+The analysis has been segmented to highlight the outcomes based on both the launch date and the monetary goal of the campaigns. 
 [The full analysis and dataset can be found here.](https://github.com/luke-c-newell/kickstarter-analysis/blob/master/Kickstarter_Challenge.xlsx.zip) Please find the raw data on the Kickstarter tab.
-### Analysis of Outcomes Based on Launch Date
+### Analysis of Outcomes Based on Launch Date for the Theater category
+To complete this analysis, a pivot table was created to show the number of theater kickstarter campaigns that were either successful, failed or cancelled within each month between 2009 and 2017. 
 ![alt text](https://github.com/luke-c-newell/kickstarter-analysis/blob/master/resources/Theater_Outcomes_vs_Launch.png "Outcomes Based on Launch Date")
-### Analysis of Outcomes Based on Goals
+May was the month with the highest number of successful campaigns with 111 and the lowest month was December with 37. 
+### Analysis of Outcomes Based on Goals for the Plays subcategory
+To complete this analysis, a table was created using the countifs function to show the number of plays that were either successful, failed or cancelled within the shown goal amounts between 2009 and 2017. 
 ![alt text](https://github.com/luke-c-newell/kickstarter-analysis/blob/master/resources/Outcomes_vs_Goals.png "Outcomes Based on Goals")
+Campaigns that started with a goal amount of $5000 or less had over 70% chance of being successful. Campaigns with a higher goal had a lower chance of success, with 88% of campaigns with a goal over $50,000 being unsuccessful.
 ### Challenges and Difficulties Encountered
 While creating the table for the 'Outcomes Based on Goals' analysis, I ran into some difficulty ensuring I had the correct syntax for the 'less than' and 'greater than or equal to' operators within the COUNTIFS function. I had to lookup how to correctly use those operators within a formula in Microsoft Excel after initially running into an error.  I also decided to create a table for pulling the limits of each row, which enabled me to copy the formula down the table instead of typing each COUNTIFS function individually.
 ## Results
